@@ -1,0 +1,7 @@
+console.log("Welcome to Band Name Generator");
+let cityName=prompt("What is your city name");
+cityName=cityName.toUpperCase();
+let petName=prompt("What is your pet name");
+petName=petName.toUpperCase();
+console.log("Your band name is "+cityName+" "+petName);
+console.log(`Your band name is ${cityName} ${petName}`);
