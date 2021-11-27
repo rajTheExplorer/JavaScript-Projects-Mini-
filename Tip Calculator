@@ -1,0 +1,12 @@
+alert("Welcome to tip calculator");
+let bill=prompt("What was your total bill");
+let noOfPersons=prompt("How many people to split the bill");
+let tipPercent=prompt("What percent tip would you like to give 10,12,15");
+bill=parseInt(bill);
+noOfPersons=parseInt(noOfPersons);
+tipPercent=parseInt(tipPercent);
+let addTip=(bill*tipPercent)/100;
+let total=bill+addTip;
+let share=total/noOfPersons;
+alert(`Each person should pay ${share}`);
+
